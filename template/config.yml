@@ -1,0 +1,41 @@
+site:
+  title: "gean"
+  subtitle: "a simple podcast generator"
+  description: "a simple podcast generator"
+  limit: 10
+  theme: theme
+  lang: zh
+  url: "http://podcast.iteago.com"
+  comment: username
+  logo: "-/image/avatar.png"
+  link: "{title}.html"
+
+authors:
+  billgo:
+    name: "Billgo"
+    intro: "Billgo Man"
+    email: "10001@qq.com"
+    avatar: "-/image/avatar/billgo.jpg"
+  coco:
+    name: "Coco"
+    intro: "Coco Gril"
+    email: "10001@qq.com"
+    avatar: "-/image/avatar/coco.jpg"
+
+itunes:
+  category: "Technology"
+  language: "zh-CN"
+  author: "Billgo"
+  email: "10001@qq.com"
+  logo: "-/image/avatar.png"
+
+build:
+  port: 8080
+  copy:
+    - "source/image"
+    - "source/audio"
+  publish: |
+    git add . -A
+    git commit -m "update"
+    git push origin master
+    git subtree push --prefix=public origin gh-pages
