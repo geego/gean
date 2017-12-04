@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gostores/feeds"
+	"github.com/gostores/feeding"
 	"github.com/gostores/symwalk"
 )
 
@@ -271,13 +271,13 @@ func GeneratePodcast(articles Collections) {
 		feedArticles = articles[0:globalConfig.Site.Limit]
 	}
 	if globalConfig.Site.Url != "" {
-		feed := &feeds.Feed{
+		feed := &feeding.Feed{
 			Title:       globalConfig.Site.Title,
 			Subtitle:    globalConfig.Site.Subtitle,
 			Description: globalConfig.Site.Description,
-			Link:        &feeds.Link{Href: globalConfig.Site.Url, Rel: "self", Type: "application/rss+xml"},
-			Author:      &feeds.Author{Name: globalConfig.Itunes.Author, Email: globalConfig.Itunes.Email},
-			Itunes: &feeds.Itunes{
+			Link:        &feeding.Link{Href: globalConfig.Site.Url, Rel: "self", Type: "application/rss+xml"},
+			Author:      &feeding.Author{Name: globalConfig.Itunes.Author, Email: globalConfig.Itunes.Email},
+			Itunes: &feeding.Itunes{
 				Email:    globalConfig.Itunes.Email,
 				Author:   globalConfig.Itunes.Author,
 				Category: globalConfig.Itunes.Category,
@@ -286,7 +286,7 @@ func GeneratePodcast(articles Collections) {
 			},
 			Created: time.Now(),
 		}
-		feed.Items = make([]*feeds.Item, 0)
+		feed.Items = make([]*feeding.Item, 0)
 		for _, item := range feedArticles {
 			article := item.(Article)
 
@@ -300,12 +300,12 @@ func GeneratePodcast(articles Collections) {
 				audioSize = 0
 			}
 
-			feed.Items = append(feed.Items, &feeds.Item{
+			feed.Items = append(feed.Items, &feeding.Item{
 				Title:       article.Title,
 				Description: string(article.Content),
-				Link:        &feeds.Link{Href: globalConfig.Site.Url + article.Link},
-				Author:      &feeds.Author{article.Author.Name, ""},
-				Itunes: &feeds.ItunesItem{
+				Link:        &feeding.Link{Href: globalConfig.Site.Url + article.Link},
+				Author:      &feeding.Author{article.Author.Name, ""},
+				Itunes: &feeding.ItunesItem{
 					Subtitle:  string(article.Summary),
 					Image:     article.Poster,
 					AudioHref: article.Audio,
