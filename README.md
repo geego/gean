@@ -2,5 +2,4 @@
 a simple podcast generator.
 
 ## Thanks
-This project Inspired by [ink](https://github.com/InkProject/ink)
-
+This project Inspired by [hugo](https://github.com/gohugoio/hugo)
