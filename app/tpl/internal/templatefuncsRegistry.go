@@ -31,7 +31,7 @@ import (
 	"strings"
 	"sync"
 
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 var TemplateFuncsNamespaceRegistry []func(d *deps.Deps) *TemplateFuncsNamespace

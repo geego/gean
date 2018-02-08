@@ -16,24 +16,24 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/media"
+	"github.com/geego/gean/app/nitro"
+	"github.com/geego/gean/app/output"
+	"github.com/geego/gean/app/parser"
+	"github.com/geego/gean/app/related"
+	"github.com/geego/gean/app/source"
+	"github.com/geego/gean/app/tpl"
+	"github.com/geego/gean/app/transform"
 	"github.com/gostores/assist"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/fsnotify"
 	"github.com/gostores/inflect"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/media"
-	"yiqilai.tech/gean/app/nitro"
-	"yiqilai.tech/gean/app/output"
-	"yiqilai.tech/gean/app/parser"
-	"yiqilai.tech/gean/app/related"
-	"yiqilai.tech/gean/app/source"
-	"yiqilai.tech/gean/app/tpl"
-	"yiqilai.tech/gean/app/transform"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 var _ = transform.AbsURL
@@ -72,7 +72,7 @@ type Site struct {
 	// to get the singular form from that value.
 	taxonomiesPluralSingular map[string]string
 
-	// This is temporary, see https://yiqilai.tech/gean/app/issues/2835
+	// This is temporary, see https://github.com/geego/gean/app/issues/2835
 	// Maps 	"actors-gerard-depardieu" to "Gérard Depardieu" when preserveTaxonomyNames
 	// is set.
 	taxonomiesOrigKey map[string]string

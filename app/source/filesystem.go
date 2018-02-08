@@ -21,10 +21,10 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/assist"
 	"github.com/gostores/notepad"
 	"golang.org/x/text/unicode/norm"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 type Input interface {

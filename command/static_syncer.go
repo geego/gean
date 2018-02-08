@@ -7,9 +7,9 @@ import (
 	"github.com/gostores/fsnotify"
 	"github.com/gostores/fsync"
 
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/helpers"
 
-	src "yiqilai.tech/gean/app/source"
+	src "github.com/geego/gean/app/source"
 )
 
 type staticSyncer struct {

@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/configurator"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 func TestTemplateLookupOrder(t *testing.T) {

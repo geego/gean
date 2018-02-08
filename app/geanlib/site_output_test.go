@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/output"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/output"
 )
 
 func TestDefaultOutputFormats(t *testing.T) {

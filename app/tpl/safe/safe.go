@@ -16,8 +16,8 @@ package safe
 import (
 	"html/template"
 
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 // New returns a new instance of the safe-namespaced template functions.

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/parser"
 	"github.com/gostores/assist"
 	"github.com/gostores/goman"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/parser"
 )
 
 var outputDir string
@@ -123,7 +123,7 @@ func convertContents(mark rune) error {
 		page.SetDir(filepath.Join(contentDir, file.Dir()))
 		page.SetSourceContent(psr.Content())
 		if err = page.SetSourceMetaData(metadata, mark); err != nil {
-			site.Log.ERROR.Printf("Failed to set source metadata for file %q: %s. For more info see For more info see https://yiqilai.tech/gean/app/issues/2458", page.FullFilePath(), err)
+			site.Log.ERROR.Printf("Failed to set source metadata for file %q: %s. For more info see For more info see https://github.com/geego/gean/app/issues/2458", page.FullFilePath(), err)
 			continue
 		}
 

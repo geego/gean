@@ -29,7 +29,7 @@ import (
 )
 
 const (
-	issueLinkTemplate            = "[#%d](https://yiqilai.tech/gean/app/issues/%d)"
+	issueLinkTemplate            = "[#%d](https://github.com/geego/gean/app/issues/%d)"
 	linkTemplate                 = "[%s](%s)"
 	releaseNotesMarkdownTemplate = `
 {{- $patchRelease := isPatch . -}}
@@ -54,7 +54,7 @@ This release represents **{{ len .All }} contributions by {{ len $contribsPerAut
 And as always a big thanks to [@digitalcraftsman](https://github.com/digitalcraftsman) for his relentless work on keeping the documentation and the themes site in pristine condition.
 {{ end }}
 {{- if not $patchRelease }}
-Many have also been busy writing and fixing the documentation in [hugoDocs](https://yiqilai.tech/gean/appDocs), 
+Many have also been busy writing and fixing the documentation in [hugoDocs](https://github.com/geego/gean/appDocs), 
 which has received **{{ len .Docs }} contributions by {{ len $docsContribsPerAuthor }} contributors**.
 {{- if  gt (len $docsContribsPerAuthor) 3 -}}
 {{- $u1 := index $docsContribsPerAuthor 0 -}}
@@ -66,8 +66,8 @@ which has received **{{ len .Docs }} contributions by {{ len $docsContribsPerAut
 Hugo now has:
 
 {{ with .Repo -}}
-* {{ .Stars }}+ [stars](https://yiqilai.tech/gean/app/stargazers)
-* {{ len .Contributors }}+ [contributors](https://yiqilai.tech/gean/app/graphs/contributors)
+* {{ .Stars }}+ [stars](https://github.com/geego/gean/app/stargazers)
+* {{ len .Contributors }}+ [contributors](https://github.com/geego/gean/app/graphs/contributors)
 {{- end -}}
 {{ with .ThemeCount }}
 * {{ . }}+ [themes](http://themes.gohugo.io/)

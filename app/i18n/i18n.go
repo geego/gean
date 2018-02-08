@@ -14,10 +14,10 @@
 package i18n
 
 import (
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/notepad"
 	"github.com/nicksnyder/go-i18n/i18n/bundle"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 var (

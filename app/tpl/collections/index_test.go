@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/assert"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
 )
 
 func TestIndex(t *testing.T) {

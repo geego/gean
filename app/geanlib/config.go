@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 // LoadConfig loads Hugo configuration into a new configurator and then adds

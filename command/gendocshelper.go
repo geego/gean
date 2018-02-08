@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/geego/gean/app/docshelper"
 	"github.com/gostores/goman"
-	"yiqilai.tech/gean/app/docshelper"
 )
 
 type genDocsHelper struct {

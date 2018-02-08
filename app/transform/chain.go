@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 type trans func(rw contentTransformer)

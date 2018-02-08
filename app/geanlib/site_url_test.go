@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/source"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/source"
 )
 
 const slugDoc1 = "---\ntitle: slug doc 1\nslug: slug-doc-1\naliases:\n - sd1/foo/\n - sd2\n - sd3/\n - sd4.html\n---\nslug doc 1 content\n"

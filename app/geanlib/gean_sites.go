@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/i18n"
-	"yiqilai.tech/gean/app/tpl"
-	"yiqilai.tech/gean/app/tpl/tplimpl"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/i18n"
+	"github.com/geego/gean/app/tpl"
+	"github.com/geego/gean/app/tpl/tplimpl"
 )
 
 // HugoSites represents the sites to build. Each site represents a language.

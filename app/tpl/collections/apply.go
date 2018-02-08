@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"yiqilai.tech/gean/app/tpl"
+	"github.com/geego/gean/app/tpl"
 )
 
 // Apply takes a map, array, or slice and returns a new slice with the function fname applied over it.

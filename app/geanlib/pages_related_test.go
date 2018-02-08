@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/geego/gean/app/common/types"
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/common/types"
-	"yiqilai.tech/gean/app/deps"
 )
 
 func TestRelated(t *testing.T) {

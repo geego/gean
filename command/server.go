@@ -16,9 +16,9 @@ import (
 	"github.com/gostores/goman"
 	"github.com/gostores/notepad"
 
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/livereload"
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/livereload"
 )
 
 var (

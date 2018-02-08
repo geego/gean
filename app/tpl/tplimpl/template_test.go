@@ -16,10 +16,10 @@ package tplimpl
 import (
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/configurator"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 type handler interface {

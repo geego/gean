@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/parser"
+	"github.com/geego/gean/app/source"
 	"github.com/gostores/notepad"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/parser"
-	"yiqilai.tech/gean/app/source"
 )
 
 func TestDataDirJSON(t *testing.T) {

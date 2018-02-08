@@ -19,11 +19,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 // Dirs holds the source directories for a given build.

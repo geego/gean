@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"yiqilai.tech/gean/app/source"
+	"github.com/geego/gean/app/source"
 )
 
 var handlers []Handler

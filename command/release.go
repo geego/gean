@@ -5,7 +5,7 @@ import (
 
 	"github.com/gostores/goman"
 
-	"yiqilai.tech/gean/app/releaser"
+	"github.com/geego/gean/app/releaser"
 )
 
 func init() {

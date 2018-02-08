@@ -10,15 +10,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/source"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/fsnotify"
 	"github.com/gostores/leaktest"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/source"
 )
 
 type testSiteConfig struct {

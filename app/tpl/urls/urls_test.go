@@ -18,10 +18,10 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/assert"
 	"github.com/gostores/configurator"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
 )
 
 var ns = New(&deps.Deps{Cfg: configurator.New()})

@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/geego/gean/app/config"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/config"
 )
 
 // Pager represents one of the elements in a paginator.

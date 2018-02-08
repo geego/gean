@@ -12,14 +12,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/parser"
 	"github.com/gostores/assist"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/goman"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/parser"
 )
 
 func init() {

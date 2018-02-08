@@ -14,8 +14,8 @@
 package strings
 
 import (
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/tpl/internal"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/tpl/internal"
 )
 
 const name = "strings"

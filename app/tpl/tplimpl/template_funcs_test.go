@@ -25,18 +25,18 @@ import (
 	"log"
 	"os"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/i18n"
+	"github.com/geego/gean/app/tpl"
+	"github.com/geego/gean/app/tpl/internal"
+	"github.com/geego/gean/app/tpl/partials"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/notepad"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/i18n"
-	"yiqilai.tech/gean/app/tpl"
-	"yiqilai.tech/gean/app/tpl/internal"
-	"yiqilai.tech/gean/app/tpl/partials"
 )
 
 var (

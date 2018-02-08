@@ -3,8 +3,8 @@ package output
 import (
 	"testing"
 
+	"github.com/geego/gean/app/media"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/media"
 )
 
 func TestLayout(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/geego/gean/app/media"
 	"github.com/gostores/mapstructure"
-	"yiqilai.tech/gean/app/media"
 )
 
 // Format represents an output representation, usually to a file on disk.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"yiqilai.tech/gean/app/docshelper"
+	"github.com/geego/gean/app/docshelper"
 )
 
 // This is is just some helpers used to create some JSON used in the Hugo docs.

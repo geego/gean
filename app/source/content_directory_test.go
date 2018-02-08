@@ -16,8 +16,8 @@ package source
 import (
 	"testing"
 
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/configurator"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 func TestIgnoreDotFilesAndDirectories(t *testing.T) {

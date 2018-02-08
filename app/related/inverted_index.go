@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geego/gean/app/common/types"
 	"github.com/gostores/mapstructure"
-	"yiqilai.tech/gean/app/common/types"
 )
 
 var (

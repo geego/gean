@@ -3,8 +3,8 @@ package geanlib
 import (
 	"fmt"
 
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/source"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/source"
 )
 
 func init() {

@@ -9,14 +9,14 @@ import (
 	"unicode"
 	"unicode/utf8"
 
+	"github.com/geego/gean/app/config"
 	"github.com/gostores/encoding/markdown"
 	"github.com/gostores/goorgeous"
 	"github.com/gostores/mapstructure"
 	"github.com/gostores/mmark"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/config"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 // SummaryDivider denotes where content summarization should end. The default is "<!--more-->".

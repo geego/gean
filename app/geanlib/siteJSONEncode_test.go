@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 // Issue #1123

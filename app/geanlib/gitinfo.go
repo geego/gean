@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/gitmap"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 func (h *HugoSites) assembleGitInfo() {

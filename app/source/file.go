@@ -18,9 +18,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
 )
 
 // SourceSpec abstracts language-specific file creation.

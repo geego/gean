@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/bufferpool"
 	"github.com/gostores/emoji"
-	"yiqilai.tech/gean/app/bufferpool"
 )
 
 func TestEmojiCustom(t *testing.T) {

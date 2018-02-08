@@ -22,10 +22,10 @@ import (
 	"github.com/gostores/configurator"
 	"github.com/gostores/require"
 
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
 )
 
 type tstNoStringer struct{}

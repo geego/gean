@@ -3,9 +3,9 @@ package encoding
 import (
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/tpl/internal"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/tpl/internal"
 )
 
 func TestInit(t *testing.T) {

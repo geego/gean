@@ -2,7 +2,7 @@ package fmt
 
 import (
 	_fmt "fmt"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/helpers"
 )
 
 // New returns a new instance of the fmt-namespaced template functions.

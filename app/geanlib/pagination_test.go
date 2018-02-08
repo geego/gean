@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/output"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/output"
 )
 
 func TestSplitPages(t *testing.T) {

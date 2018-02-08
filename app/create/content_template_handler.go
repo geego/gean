@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/source"
+	"github.com/geego/gean/app/tpl"
 	"github.com/gostores/fsintra"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/source"
-	"yiqilai.tech/gean/app/tpl"
 )
 
 // ArchetypeFileData represents the data available to an archetype template.

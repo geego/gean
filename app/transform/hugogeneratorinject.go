@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/helpers"
 )
 
 var metaTagsCheck = regexp.MustCompile(`(?i)<meta\s+name=['|"]?generator['|"]?`)

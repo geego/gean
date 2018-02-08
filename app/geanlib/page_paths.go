@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/output"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/output"
 )
 
 // targetPathDescriptor describes how a file path for a given resource

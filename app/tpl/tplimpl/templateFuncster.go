@@ -19,8 +19,8 @@ import (
 	"strings"
 	texttemplate "text/template"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
-	"yiqilai.tech/gean/app/deps"
+	bp "github.com/geego/gean/app/bufferpool"
+	"github.com/geego/gean/app/deps"
 )
 
 // Some of the template funcs are'nt entirely stateless.

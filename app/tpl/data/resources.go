@@ -11,8 +11,8 @@ import (
 	"github.com/gostores/fsintra"
 	"github.com/gostores/notepad"
 
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/helpers"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/tpl"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/tpl"
 )
 
 type templateFinder int

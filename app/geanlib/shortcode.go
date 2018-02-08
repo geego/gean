@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/media"
-	"yiqilai.tech/gean/app/output"
-	"yiqilai.tech/gean/app/tpl"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/media"
+	"github.com/geego/gean/app/output"
+	"github.com/geego/gean/app/tpl"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 // ShortcodeWithPage is the "." context in a shortcode template.

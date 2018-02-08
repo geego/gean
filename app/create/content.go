@@ -6,9 +6,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 // NewContent creates a new content file in the content directory based upon the
@@ -90,7 +90,7 @@ func findArchetype(ps *helpers.PathSpec, kind, ext string) (outpath string) {
 	for _, x := range search {
 		// If the new content isn't in a subdirectory, kind == "".
 		// Therefore it should be excluded otherwise `is a directory`
-		// error will occur. yiqilai.tech/gean/app/issues/411
+		// error will occur. github.com/geego/gean/app/issues/411
 		var pathsToCheck = []string{"default"}
 
 		if ext != "" {

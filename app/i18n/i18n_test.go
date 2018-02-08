@@ -25,11 +25,11 @@ import (
 	"github.com/gostores/notepad"
 	"github.com/gostores/require"
 
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/tpl/tplimpl"
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/tpl/tplimpl"
 )
 
 var logger = notepad.NewNotepad(notepad.LevelError, notepad.LevelError, os.Stdout, ioutil.Discard, "", log.Ldate|log.Ltime)
@@ -117,7 +117,7 @@ var i18nTests = []i18nTest{
 		expectedFlag: "¡Hola, 50 gente!",
 	},
 	// Same id and translation in current language
-	// https://yiqilai.tech/gean/app/issues/2607
+	// https://github.com/geego/gean/app/issues/2607
 	{
 		data: map[string][]byte{
 			"es.toml": []byte("[hello]\nother = \"hello\""),

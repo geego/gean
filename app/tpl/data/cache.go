@@ -6,9 +6,9 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/fsintra"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 var cacheMu sync.RWMutex

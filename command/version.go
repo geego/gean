@@ -11,8 +11,8 @@ import (
 	"github.com/gostores/notepad"
 	"github.com/gostores/osext"
 
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
 )
 
 var versionCmd = &goman.Command{

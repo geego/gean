@@ -17,7 +17,7 @@ import (
 	"github.com/gostores/fsintra"
 	"github.com/gostores/require"
 
-	"yiqilai.tech/gean/app/geanfs"
+	"github.com/geego/gean/app/geanfs"
 )
 
 func TestMakePath(t *testing.T) {

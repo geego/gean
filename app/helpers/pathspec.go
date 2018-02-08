@@ -3,9 +3,9 @@ package helpers
 import (
 	"fmt"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 // PathSpec holds methods that decides how paths in URLs and files in Hugo should look like.

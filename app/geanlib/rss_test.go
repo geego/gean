@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 func TestRSSOutput(t *testing.T) {

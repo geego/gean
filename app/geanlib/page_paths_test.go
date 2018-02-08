@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"yiqilai.tech/gean/app/media"
-	"yiqilai.tech/gean/app/output"
+	"github.com/geego/gean/app/media"
+	"github.com/geego/gean/app/output"
 )
 
 func TestPageTargetPath(t *testing.T) {

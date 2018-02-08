@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/geego/gean/app/config"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/config"
 )
 
 // These are the settings that should only be looked up in the global Viper

@@ -7,16 +7,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 /*
 	This file will test the "making everything a page" transition.
 
-	See https://yiqilai.tech/gean/app/issues/2297
+	See https://github.com/geego/gean/app/issues/2297
 
 */
 

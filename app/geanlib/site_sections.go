@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/helpers"
 
 	radix "github.com/hashicorp/go-immutable-radix"
 )

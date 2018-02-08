@@ -8,7 +8,7 @@ import (
 
 	"github.com/gostores/goman"
 
-	"yiqilai.tech/gean/app/parser"
+	"github.com/geego/gean/app/parser"
 )
 
 var undraftCmd = &goman.Command{

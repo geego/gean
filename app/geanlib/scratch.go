@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"yiqilai.tech/gean/app/tpl/math"
+	"github.com/geego/gean/app/tpl/math"
 )
 
 // Scratch is a writable context used for stateful operations in Page/Node rendering.

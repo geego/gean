@@ -1,7 +1,7 @@
 package geanlib
 
 import (
-	"yiqilai.tech/gean/app/source"
+	"github.com/geego/gean/app/source"
 )
 
 // Handler is used for processing files of a specific type.

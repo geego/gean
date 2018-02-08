@@ -1,8 +1,8 @@
 package geanfs
 
 import (
+	"github.com/geego/gean/app/config"
 	"github.com/gostores/fsintra"
-	"yiqilai.tech/gean/app/config"
 )
 
 // Os points to an Os fsintra file system.

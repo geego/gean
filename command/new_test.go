@@ -8,7 +8,7 @@ import (
 	"github.com/gostores/configurator"
 	"github.com/gostores/require"
 
-	"yiqilai.tech/gean/app/geanfs"
+	"github.com/geego/gean/app/geanfs"
 )
 
 // Issue #1133

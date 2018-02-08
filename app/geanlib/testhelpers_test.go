@@ -10,16 +10,16 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/source"
+	"github.com/geego/gean/app/tpl"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/notepad"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/source"
-	"yiqilai.tech/gean/app/tpl"
 )
 
 type testHelper struct {

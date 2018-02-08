@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 func TestWhere(t *testing.T) {

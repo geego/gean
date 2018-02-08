@@ -1,8 +1,8 @@
 package helpers
 
 import (
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/configurator"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 func newTestPathSpec(fs *geanfs.Fs, v *configurator.Configurator) *PathSpec {

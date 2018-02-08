@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
 )
 
 const pageWithAlias = `---

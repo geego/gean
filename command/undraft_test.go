@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"yiqilai.tech/gean/app/parser"
+	"github.com/geego/gean/app/parser"
 )
 
 var (

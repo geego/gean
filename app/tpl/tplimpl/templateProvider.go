@@ -14,7 +14,7 @@
 package tplimpl
 
 import (
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 // TemplateProvider manages templates.

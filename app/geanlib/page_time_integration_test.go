@@ -135,7 +135,7 @@ func TestParsingDateInFrontMatter(t *testing.T) {
 	}
 }
 
-// Temp test https://yiqilai.tech/gean/app/issues/3059
+// Temp test https://github.com/geego/gean/app/issues/3059
 func TestParsingDateParallel(t *testing.T) {
 	t.Parallel()
 

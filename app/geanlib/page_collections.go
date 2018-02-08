@@ -4,7 +4,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"yiqilai.tech/gean/app/cache"
+	"github.com/geego/gean/app/cache"
 )
 
 // PageCollections contains the page collections for a site.

@@ -4,9 +4,8 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/geego/gean/command"
 	"github.com/gostores/notepad"
-
-	"yiqilai.tech/gean/command"
 )
 
 func main() {

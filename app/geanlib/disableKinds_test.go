@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 func TestDisableKindsNoneDisabled(t *testing.T) {

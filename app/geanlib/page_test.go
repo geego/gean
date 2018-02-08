@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/assert"
 	"github.com/gostores/assist"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 var emptyPage = ""

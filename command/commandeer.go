@@ -1,10 +1,10 @@
 package command
 
 import (
-	"yiqilai.tech/gean/app/common/types"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/common/types"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
 )
 
 type commandeer struct {

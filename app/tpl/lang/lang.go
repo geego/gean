@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/deps"
 )
 
 // New returns a new instance of the lang-namespaced template functions.

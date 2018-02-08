@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
 )
 
 func TestByCountOrderOfTaxonomies(t *testing.T) {

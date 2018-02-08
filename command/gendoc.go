@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/goman"
 	"github.com/gostores/goman/doc"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 const gendocFrontmatterTemplate = `---

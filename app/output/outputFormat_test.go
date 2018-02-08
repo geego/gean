@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/geego/gean/app/media"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/media"
 )
 
 func TestDefaultTypes(t *testing.T) {

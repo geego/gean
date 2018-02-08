@@ -1,10 +1,10 @@
 package cast
 
 import (
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/docshelper"
+	"github.com/geego/gean/app/tpl/internal"
 	"github.com/gostores/configurator"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/docshelper"
-	"yiqilai.tech/gean/app/tpl/internal"
 )
 
 // This file provides documentation support and is randomly put into this package.

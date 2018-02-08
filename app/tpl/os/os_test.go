@@ -18,12 +18,12 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/assert"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 func TestReadFile(t *testing.T) {

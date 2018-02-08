@@ -12,6 +12,16 @@ import (
 	"sync"
 	"time"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/livereload"
+	"github.com/geego/gean/app/nitro"
+	"github.com/geego/gean/app/parser"
+	"github.com/geego/gean/app/utils"
+	"github.com/geego/gean/app/watcher"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/fsnotify"
@@ -19,18 +29,8 @@ import (
 	"github.com/gostores/goman"
 	"github.com/gostores/notepad"
 	"github.com/gostores/pflag"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/livereload"
-	"yiqilai.tech/gean/app/nitro"
-	"yiqilai.tech/gean/app/parser"
-	"yiqilai.tech/gean/app/utils"
-	"yiqilai.tech/gean/app/watcher"
 
-	src "yiqilai.tech/gean/app/source"
+	src "github.com/geego/gean/app/source"
 )
 
 // Gean represents the Gean sites to build. This variable is exported as it
@@ -648,7 +648,7 @@ func (c *commandeer) getDirList() ([]string, error) {
 		}
 
 		// Skip .git directories.
-		// Related to https://yiqilai.tech/gean/app/issues/3468.
+		// Related to https://github.com/geego/gean/app/issues/3468.
 		if fi.Name() == ".git" {
 			return nil
 		}

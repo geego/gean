@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/geego/gean/app/tpl/compare"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/tpl/compare"
 )
 
 var comp = compare.New()

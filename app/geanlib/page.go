@@ -16,17 +16,17 @@ import (
 	"unicode"
 	"unicode/utf8"
 
+	"github.com/geego/gean/app/compare"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/output"
+	"github.com/geego/gean/app/parser"
+	"github.com/geego/gean/app/related"
+	"github.com/geego/gean/app/source"
 	"github.com/gostores/assist"
 	"github.com/gostores/gitmap"
 	"github.com/gostores/mapstructure"
-	"yiqilai.tech/gean/app/compare"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/output"
-	"yiqilai.tech/gean/app/parser"
-	"yiqilai.tech/gean/app/related"
-	"yiqilai.tech/gean/app/source"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 var (
@@ -239,7 +239,7 @@ func (p *Page) SearchKeywords(cfg related.IndexConfig) ([]related.Keyword, error
 // PubDate is when this page was or will be published.
 // NOTE: This is currently used for search only and is not meant to be used
 // directly in templates. We need to consolidate the dates in this struct.
-// TODO(bep) see https://yiqilai.tech/gean/app/issues/3854
+// TODO(bep) see https://github.com/geego/gean/app/issues/3854
 func (p *Page) PubDate() time.Time {
 	if !p.PublishDate.IsZero() {
 		return p.PublishDate
@@ -1452,7 +1452,7 @@ func (p *Page) SetSourceContent(content []byte) {
 }
 
 func (p *Page) SetSourceMetaData(in interface{}, mark rune) (err error) {
-	// See https://yiqilai.tech/gean/app/issues/2458
+	// See https://github.com/geego/gean/app/issues/2458
 	defer func() {
 		if r := recover(); r != nil {
 			var ok bool

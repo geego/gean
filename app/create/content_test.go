@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/create"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/create"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 func TestNewContent(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 func TestSort(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"sync"
 
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/output"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/output"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 // renderPages renders pages each corresponding to a markdown file.

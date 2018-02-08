@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"yiqilai.tech/gean/app/deps"
+	"github.com/geego/gean/app/deps"
 )
 
 func Test404(t *testing.T) {

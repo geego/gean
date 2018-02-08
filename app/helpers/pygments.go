@@ -18,11 +18,11 @@ import (
 	"github.com/alecthomas/chroma/formatters/html"
 	"github.com/alecthomas/chroma/lexers"
 	"github.com/alecthomas/chroma/styles"
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/geanfs"
 
-	bp "yiqilai.tech/gean/app/bufferpool"
+	bp "github.com/geego/gean/app/bufferpool"
 )
 
 const pygmentsBin = "pygmentize"

@@ -18,9 +18,9 @@ import (
 	"html"
 	"html/template"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 // New returns a new instance of the transform-namespaced template functions.

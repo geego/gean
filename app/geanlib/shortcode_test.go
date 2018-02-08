@@ -9,15 +9,15 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/media"
+	"github.com/geego/gean/app/output"
+	"github.com/geego/gean/app/source"
+	"github.com/geego/gean/app/tpl"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/notepad"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/media"
-	"yiqilai.tech/gean/app/output"
-	"yiqilai.tech/gean/app/source"
-	"yiqilai.tech/gean/app/tpl"
 )
 
 // TODO(bep) remove
@@ -46,7 +46,7 @@ func CheckShortCodeMatchAndError(t *testing.T, input, expected string, withTempl
 
 	cfg, fs := newTestCfg()
 
-	// Need some front matter, see https://yiqilai.tech/gean/app/issues/2337
+	// Need some front matter, see https://github.com/geego/gean/app/issues/2337
 	contentFile := `---
 title: "Title"
 ---

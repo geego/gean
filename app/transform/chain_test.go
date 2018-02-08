@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/assert"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 const (

@@ -3,9 +3,9 @@ package geanlib
 import (
 	"sync"
 
+	"github.com/geego/gean/app/common/types"
+	"github.com/geego/gean/app/related"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/common/types"
-	"yiqilai.tech/gean/app/related"
 )
 
 var (

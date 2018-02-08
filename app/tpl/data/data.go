@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geego/gean/app/deps"
 	"github.com/gostores/notepad"
-	"yiqilai.tech/gean/app/deps"
 )
 
 // New returns a new instance of the data-namespaced template functions.

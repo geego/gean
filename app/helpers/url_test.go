@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/geego/gean/app/geanfs"
 	"github.com/gostores/assert"
 	"github.com/gostores/configurator"
 	"github.com/gostores/require"
-	"yiqilai.tech/gean/app/geanfs"
 )
 
 func TestURLize(t *testing.T) {

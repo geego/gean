@@ -9,16 +9,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geego/gean/app/create"
+	"github.com/geego/gean/app/geanfs"
+	"github.com/geego/gean/app/geanlib"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/parser"
 	"github.com/gostores/configurator"
 	"github.com/gostores/fsintra"
 	"github.com/gostores/goman"
 	"github.com/gostores/notepad"
-
-	"yiqilai.tech/gean/app/create"
-	"yiqilai.tech/gean/app/geanfs"
-	"yiqilai.tech/gean/app/geanlib"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/parser"
 )
 
 var (
@@ -325,7 +324,7 @@ func touchFile(fs fsintra.Fs, x ...string) {
 func createThemeMD(fs *geanfs.Fs, inpath string) (err error) {
 
 	by := []byte(`# theme.toml template for a gean theme
-# See https://yiqilai.tech/gean/appThemes#themetoml for an example
+# See https://github.com/geego/gean/appThemes#themetoml for an example
 
 name = "` + strings.Title(helpers.MakeTitle(filepath.Base(inpath))) + `"
 license = "MIT"

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"yiqilai.tech/gean/app/compare"
+	"github.com/geego/gean/app/compare"
 )
 
 // New returns a new instance of the compare-namespaced template functions.

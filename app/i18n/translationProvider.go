@@ -17,10 +17,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/source"
 	"github.com/nicksnyder/go-i18n/i18n/bundle"
 	"github.com/nicksnyder/go-i18n/i18n/language"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/source"
 )
 
 // TranslationProvider provides translation handling, i.e. loading

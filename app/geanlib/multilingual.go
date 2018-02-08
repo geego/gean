@@ -6,9 +6,9 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/geego/gean/app/config"
+	"github.com/geego/gean/app/helpers"
 	"github.com/gostores/assist"
-	"yiqilai.tech/gean/app/config"
-	"yiqilai.tech/gean/app/helpers"
 )
 
 // Multilingual manages the all languages used in a multilingual site.

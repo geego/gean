@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"html/template"
 
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/helpers"
 )
 
 var (

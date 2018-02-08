@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/helpers"
 )
 
 const (

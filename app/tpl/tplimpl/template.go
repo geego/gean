@@ -23,12 +23,12 @@ import (
 	"sync"
 	texttemplate "text/template"
 
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
+	"github.com/geego/gean/app/output"
+	"github.com/geego/gean/app/tpl"
 	"github.com/gostores/amber"
 	"github.com/gostores/fsintra"
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
-	"yiqilai.tech/gean/app/output"
-	"yiqilai.tech/gean/app/tpl"
 )
 
 const (
@@ -137,7 +137,7 @@ func (t *templateHandler) clone(d *deps.Deps) *templateHandler {
 		vc := template.Must(v.Clone())
 		// The extra lookup is a workaround, see
 		// * https://github.com/golang/go/issues/16101
-		// * https://yiqilai.tech/gean/app/issues/2549
+		// * https://github.com/geego/gean/app/issues/2549
 		vc = vc.Lookup(vc.Name())
 		vc.Funcs(c.html.funcster.funcMap)
 		c.html.overlays[k] = vc
@@ -555,7 +555,7 @@ func (t *htmlTemplates) handleMaster(name, overlayFilename, masterFilename strin
 
 	// The extra lookup is a workaround, see
 	// * https://github.com/golang/go/issues/16101
-	// * https://yiqilai.tech/gean/app/issues/2549
+	// * https://github.com/geego/gean/app/issues/2549
 	overlayTpl = overlayTpl.Lookup(overlayTpl.Name())
 	if err := applyTemplateTransformersToHMLTTemplate(overlayTpl); err != nil {
 		return err

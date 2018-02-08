@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"yiqilai.tech/gean/app/deps"
-	"yiqilai.tech/gean/app/helpers"
+	"github.com/geego/gean/app/deps"
+	"github.com/geego/gean/app/helpers"
 )
 
 func TestDefaultHandler(t *testing.T) {
