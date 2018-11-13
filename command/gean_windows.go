@@ -1,6 +1,6 @@
 package command
 
-import "github.com/gostores/goman"
+import "github.com/govenue/goman"
 
 func init() {
 	goman.MousetrapHelpText = `

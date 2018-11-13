@@ -3,8 +3,8 @@ package geanlib
 import (
 	"testing"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/assist"
+	"github.com/govenue/assert"
+	"github.com/govenue/assist"
 )
 
 type pagePNTestObject struct {

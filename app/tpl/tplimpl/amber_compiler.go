@@ -16,7 +16,7 @@ package tplimpl
 import (
 	"html/template"
 
-	"github.com/gostores/amber"
+	"github.com/govenue/amber"
 )
 
 func (t *templateHandler) compileAmberWithTemplate(b []byte, path string, templ *template.Template) (*template.Template, error) {

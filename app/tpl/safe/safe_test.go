@@ -18,8 +18,8 @@ import (
 	"html/template"
 	"testing"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/require"
 )
 
 type tstNoStringer struct{}

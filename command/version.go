@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
-	"github.com/gostores/osext"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
+	"github.com/govenue/osext"
 
 	"github.com/geego/gean/app/geanlib"
 	"github.com/geego/gean/app/helpers"

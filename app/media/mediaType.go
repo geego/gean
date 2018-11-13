@@ -19,7 +19,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gostores/mapstructure"
+	"github.com/govenue/mapstructure"
 )
 
 const (

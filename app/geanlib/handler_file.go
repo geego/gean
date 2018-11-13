@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/geego/gean/app/source"
-	"github.com/gostores/cssmin"
+	"github.com/govenue/cssmin"
 )
 
 func init() {

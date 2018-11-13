@@ -7,7 +7,7 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/configurator"
+	"github.com/govenue/configurator"
 )
 
 func TestTemplateLookupOrder(t *testing.T) {

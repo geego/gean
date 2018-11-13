@@ -4,7 +4,7 @@ import (
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/docshelper"
 	"github.com/geego/gean/app/tpl/internal"
-	"github.com/gostores/configurator"
+	"github.com/govenue/configurator"
 )
 
 // This file provides documentation support and is randomly put into this package.

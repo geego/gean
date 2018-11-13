@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/geego/gean/app/tpl/compare"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 var comp = compare.New()

@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/gostores/goman"
+	"github.com/govenue/goman"
 )
 
 var commandCheck = &goman.Command{

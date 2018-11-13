@@ -8,7 +8,7 @@ import (
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // Multilingual manages the all languages used in a multilingual site.

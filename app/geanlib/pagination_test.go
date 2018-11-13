@@ -9,7 +9,7 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/output"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestSplitPages(t *testing.T) {

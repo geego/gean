@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/configurator"
-	"github.com/gostores/notepad"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/configurator"
+	"github.com/govenue/notepad"
+	"github.com/govenue/require"
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/deps"

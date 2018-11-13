@@ -6,7 +6,7 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/tpl"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 const sitemapTemplate = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

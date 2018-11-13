@@ -6,9 +6,9 @@ import (
 
 	"github.com/geego/gean/app/geanfs"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/goman"
-	"github.com/gostores/goman/doc"
-	"github.com/gostores/notepad"
+	"github.com/govenue/goman"
+	"github.com/govenue/goman/doc"
+	"github.com/govenue/notepad"
 )
 
 var genmandir string

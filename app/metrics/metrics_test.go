@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestSimilarPercentage(t *testing.T) {

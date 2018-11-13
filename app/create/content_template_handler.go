@@ -10,7 +10,7 @@ import (
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/source"
 	"github.com/geego/gean/app/tpl"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 )
 
 // ArchetypeFileData represents the data available to an archetype template.

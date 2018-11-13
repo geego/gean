@@ -20,10 +20,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/notepad"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/notepad"
+	"github.com/govenue/require"
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/deps"

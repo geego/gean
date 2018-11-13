@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/gostores/configurator"
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/configurator"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 )
 
 var configCmd = &goman.Command{

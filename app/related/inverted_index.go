@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/geego/gean/app/common/types"
-	"github.com/gostores/mapstructure"
+	"github.com/govenue/mapstructure"
 )
 
 var (

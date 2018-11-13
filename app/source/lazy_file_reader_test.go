@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 )
 
 func TestNewLazyFileReader(t *testing.T) {

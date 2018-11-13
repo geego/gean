@@ -5,7 +5,7 @@ import (
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // PathSpec holds methods that decides how paths in URLs and files in Hugo should look like.

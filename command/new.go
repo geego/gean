@@ -14,10 +14,10 @@ import (
 	"github.com/geego/gean/app/geanlib"
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/parser"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 )
 
 var (

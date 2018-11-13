@@ -33,10 +33,10 @@ import (
 	"github.com/geego/gean/app/tpl"
 	"github.com/geego/gean/app/tpl/internal"
 	"github.com/geego/gean/app/tpl/partials"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/notepad"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/notepad"
+	"github.com/govenue/require"
 )
 
 var (

@@ -14,11 +14,11 @@ import (
 	"github.com/geego/gean/app/geanfs"
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/source"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/fsnotify"
-	"github.com/gostores/leaktest"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/fsnotify"
+	"github.com/govenue/leaktest"
+	"github.com/govenue/require"
 )
 
 type testSiteConfig struct {
@@ -395,7 +395,7 @@ func doTestMultiSitesBuild(t *testing.T, configTemplate, configSuffix string) {
 }
 
 func TestMultiSitesRebuild(t *testing.T) {
-	// t.Parallel() not supported, see https://github.com/gostores/leaktest/issues/4
+	// t.Parallel() not supported, see https://github.com/govenue/leaktest/issues/4
 	// This leaktest seems to be a little bit shaky on Travis.
 	if !isCI() {
 		defer leaktest.CheckTimeout(t, 30*time.Second)()

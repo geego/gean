@@ -22,10 +22,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gostores/goorgeous"
-	//"github.com/gostores/encoding/toml"
+	"github.com/govenue/goorgeous"
+	//"github.com/govenue/encoding/toml"
 	"github.com/BurntSushi/toml"
-	"github.com/gostores/encoding/yaml"
+	"github.com/govenue/encoding/yaml"
 )
 
 // FrontmatterType represents a type of frontmatter.

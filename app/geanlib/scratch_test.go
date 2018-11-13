@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gostores/assert"
+	"github.com/govenue/assert"
 )
 
 func TestScratchAdd(t *testing.T) {

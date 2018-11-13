@@ -17,7 +17,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // FindRE returns a list of strings that match the regular expression. By default all matches

@@ -8,7 +8,7 @@ import (
 
 	"github.com/geego/gean/app/geanlib"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 )
 
 // NewContent creates a new content file in the content directory based upon the

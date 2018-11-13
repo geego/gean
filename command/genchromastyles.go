@@ -6,7 +6,7 @@ import (
 	"github.com/alecthomas/chroma"
 	"github.com/alecthomas/chroma/formatters/html"
 	"github.com/alecthomas/chroma/styles"
-	"github.com/gostores/goman"
+	"github.com/govenue/goman"
 )
 
 type genChromaStyles struct {

@@ -3,7 +3,7 @@ package command
 import (
 	"errors"
 
-	"github.com/gostores/goman"
+	"github.com/govenue/goman"
 
 	"github.com/geego/gean/app/releaser"
 )

@@ -16,10 +16,10 @@ import (
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/source"
 	"github.com/geego/gean/app/tpl"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/notepad"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/notepad"
+	"github.com/govenue/require"
 )
 
 type testHelper struct {

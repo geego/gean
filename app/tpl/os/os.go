@@ -19,8 +19,8 @@ import (
 	_os "os"
 
 	"github.com/geego/gean/app/deps"
-	"github.com/gostores/assist"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/assist"
+	"github.com/govenue/fsintra"
 )
 
 // New returns a new instance of the os-namespaced template functions.

@@ -2,7 +2,7 @@ package geanfs
 
 import (
 	"github.com/geego/gean/app/config"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 )
 
 // Os points to an Os fsintra file system.

@@ -22,8 +22,8 @@ import (
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/geanfs"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/notepad"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/notepad"
 )
 
 // Dirs holds the source directories for a given build.

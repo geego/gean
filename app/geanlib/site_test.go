@@ -10,10 +10,10 @@ import (
 	"github.com/geego/gean/app/geanfs"
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/source"
-	"github.com/gostores/assert"
-	"github.com/gostores/inflect"
-	"github.com/gostores/notepad"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/inflect"
+	"github.com/govenue/notepad"
+	"github.com/govenue/require"
 )
 
 const (

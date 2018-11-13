@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gostores/fsintra"
-	"github.com/gostores/require"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/require"
 )
 
 const (

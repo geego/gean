@@ -8,7 +8,7 @@ import (
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/output"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 func createSiteOutputFormats(allFormats output.Formats, cfg config.Provider) (map[string]output.Formats, error) {

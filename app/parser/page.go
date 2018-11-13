@@ -22,7 +22,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/gostores/goorgeous"
+	"github.com/govenue/goorgeous"
 )
 
 const (

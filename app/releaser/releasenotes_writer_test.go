@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func _TestReleaseNotesWriter(t *testing.T) {

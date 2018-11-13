@@ -8,8 +8,8 @@ import (
 
 	"github.com/geego/gean/app/geanlib"
 	"github.com/geego/gean/app/parser"
-	"github.com/gostores/assist"
-	"github.com/gostores/goman"
+	"github.com/govenue/assist"
+	"github.com/govenue/goman"
 )
 
 var outputDir string

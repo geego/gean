@@ -11,7 +11,7 @@ import (
 	"github.com/geego/gean/app/metrics"
 	"github.com/geego/gean/app/output"
 	"github.com/geego/gean/app/tpl"
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 )
 
 // Deps holds dependencies used by many.

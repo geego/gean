@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // KeyValues holds an key and a slice of values.

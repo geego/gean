@@ -8,8 +8,8 @@ import (
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
 )
 
 // LoadConfig loads Hugo configuration into a new configurator and then adds
@@ -24,7 +24,7 @@ func LoadConfig(fs fsintra.Fs, relativeSourcePath, configFilename string) (*conf
 	v.AutomaticEnv()
 	v.SetEnvPrefix("hugo")
 	v.SetConfigFile(configFilenames[0])
-	// See https://github.com/gostores/configurator/issues/73#issuecomment-126970794
+	// See https://github.com/govenue/configurator/issues/73#issuecomment-126970794
 	if relativeSourcePath == "" {
 		v.AddConfigPath(".")
 	} else {

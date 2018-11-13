@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 type testDoc struct {

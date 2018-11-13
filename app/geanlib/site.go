@@ -27,11 +27,11 @@ import (
 	"github.com/geego/gean/app/source"
 	"github.com/geego/gean/app/tpl"
 	"github.com/geego/gean/app/transform"
-	"github.com/gostores/assist"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/fsnotify"
-	"github.com/gostores/inflect"
+	"github.com/govenue/assist"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/fsnotify"
+	"github.com/govenue/inflect"
 
 	bp "github.com/geego/gean/app/bufferpool"
 )

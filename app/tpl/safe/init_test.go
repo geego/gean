@@ -18,7 +18,7 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/tpl/internal"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestInit(t *testing.T) {

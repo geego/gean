@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gostores/goman"
+	"github.com/govenue/goman"
 
 	"github.com/geego/gean/app/parser"
 )

@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/alecthomas/chroma/formatters/html"
-	"github.com/gostores/configurator"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/require"
 )
 
 func TestParsePygmentsArgs(t *testing.T) {

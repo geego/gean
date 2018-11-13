@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 type pageGroupTestObject struct {

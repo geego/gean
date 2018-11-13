@@ -17,7 +17,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 type Test struct {

@@ -18,7 +18,7 @@ import (
 
 	"html/template"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 var (

@@ -3,8 +3,8 @@ package command
 import (
 	"syscall"
 
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 )
 
 func init() {

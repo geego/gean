@@ -14,9 +14,9 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/assert"
-	"github.com/gostores/assist"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/assist"
+	"github.com/govenue/require"
 )
 
 var emptyPage = ""

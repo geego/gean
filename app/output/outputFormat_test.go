@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/media"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestDefaultTypes(t *testing.T) {

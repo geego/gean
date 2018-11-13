@@ -18,8 +18,8 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/configurator"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/require"
 )
 
 type handler interface {

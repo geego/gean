@@ -3,7 +3,7 @@ package geanlib
 import (
 	"sort"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 var spc = newPageCache()

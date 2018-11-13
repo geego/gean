@@ -8,9 +8,9 @@ import (
 
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/output"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/require"
 )
 
 func TestDefaultOutputFormats(t *testing.T) {

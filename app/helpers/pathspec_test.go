@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/configurator"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/require"
 )
 
 func TestNewPathSpecFromConfig(t *testing.T) {

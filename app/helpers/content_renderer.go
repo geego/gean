@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/geego/gean/app/config"
-	"github.com/gostores/encoding/markdown"
-	"github.com/gostores/mmark"
+	"github.com/govenue/encoding/markdown"
+	"github.com/govenue/mmark"
 )
 
 // HugoHTMLRenderer wraps a markdown.Renderer, typically a markdown.Html

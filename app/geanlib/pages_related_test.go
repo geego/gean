@@ -7,7 +7,7 @@ import (
 
 	"github.com/geego/gean/app/common/types"
 	"github.com/geego/gean/app/deps"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestRelated(t *testing.T) {

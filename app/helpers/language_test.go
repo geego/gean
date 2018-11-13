@@ -3,8 +3,8 @@ package helpers
 import (
 	"testing"
 
-	"github.com/gostores/configurator"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/require"
 )
 
 func TestGetGlobalOnlySetting(t *testing.T) {

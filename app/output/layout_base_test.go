@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestLayoutBase(t *testing.T) {

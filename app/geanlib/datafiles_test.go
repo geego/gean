@@ -12,8 +12,8 @@ import (
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/parser"
 	"github.com/geego/gean/app/source"
-	"github.com/gostores/notepad"
-	"github.com/gostores/require"
+	"github.com/govenue/notepad"
+	"github.com/govenue/require"
 )
 
 func TestDataDirJSON(t *testing.T) {

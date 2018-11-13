@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/geego/gean/app/config"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // Pager represents one of the elements in a paginator.

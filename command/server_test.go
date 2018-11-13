@@ -3,7 +3,7 @@ package command
 import (
 	"testing"
 
-	"github.com/gostores/configurator"
+	"github.com/govenue/configurator"
 )
 
 func TestFixURL(t *testing.T) {

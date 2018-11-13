@@ -12,9 +12,9 @@ import (
 	"github.com/geego/gean/app/geanfs"
 	"github.com/geego/gean/app/geanlib"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/require"
 )
 
 func TestNewContent(t *testing.T) {

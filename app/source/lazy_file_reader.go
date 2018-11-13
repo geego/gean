@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 )
 
 // LazyFileReader is an io.Reader implementation to postpone reading the file

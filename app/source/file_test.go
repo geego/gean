@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/assert"
-	"github.com/gostores/configurator"
+	"github.com/govenue/assert"
+	"github.com/govenue/configurator"
 )
 
 func TestFileUniqueID(t *testing.T) {

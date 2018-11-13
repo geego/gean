@@ -1,8 +1,8 @@
 package command
 
 import (
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 )
 
 var autocompleteTarget string

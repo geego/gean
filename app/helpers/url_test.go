@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/assert"
-	"github.com/gostores/configurator"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/configurator"
+	"github.com/govenue/require"
 )
 
 func TestURLize(t *testing.T) {

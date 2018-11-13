@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/fsnotify"
+	"github.com/govenue/fsnotify"
 )
 
 // Build builds all sites. If filesystem events are provided,

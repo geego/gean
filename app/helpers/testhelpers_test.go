@@ -2,7 +2,7 @@ package helpers
 
 import (
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/configurator"
+	"github.com/govenue/configurator"
 )
 
 func newTestPathSpec(fs *geanfs.Fs, v *configurator.Configurator) *PathSpec {

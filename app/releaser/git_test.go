@@ -16,7 +16,7 @@ package releaser
 import (
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestGitInfos(t *testing.T) {

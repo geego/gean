@@ -18,8 +18,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/require"
 )
 
 func TestBasicNSArithmetic(t *testing.T) {

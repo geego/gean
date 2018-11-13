@@ -1,8 +1,8 @@
 package geanlib
 
 import (
-	"github.com/gostores/assist"
-	"github.com/gostores/notepad"
+	"github.com/govenue/assist"
+	"github.com/govenue/notepad"
 )
 
 // Sitemap configures the sitemap to be generated.

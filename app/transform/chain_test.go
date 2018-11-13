@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/assert"
+	"github.com/govenue/assert"
 )
 
 const (

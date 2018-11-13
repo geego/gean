@@ -20,7 +20,7 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // New returns a new instance of the transform-namespaced template functions.

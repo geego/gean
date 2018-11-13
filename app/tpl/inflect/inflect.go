@@ -16,8 +16,8 @@ package inflect
 import (
 	"strconv"
 
-	"github.com/gostores/assist"
-	_inflect "github.com/gostores/inflect"
+	"github.com/govenue/assist"
+	_inflect "github.com/govenue/inflect"
 )
 
 // New returns a new instance of the inflect-namespaced template functions.

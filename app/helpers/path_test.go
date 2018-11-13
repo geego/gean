@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/require"
 
 	"github.com/geego/gean/app/geanfs"
 )
@@ -690,10 +690,10 @@ func TestFindCWD(t *testing.T) {
 
 	//cwd, _ := os.Getwd()
 	data := []test{
-	//{cwd, nil},
-	// Commenting this out. It doesn't work properly.
-	// There's a good reason why we don't use os.Getwd(), it doesn't actually work the way we want it to.
-	// I really don't know a better way to test this function. - SPF 2014.11.04
+		//{cwd, nil},
+		// Commenting this out. It doesn't work properly.
+		// There's a good reason why we don't use os.Getwd(), it doesn't actually work the way we want it to.
+		// I really don't know a better way to test this function. - SPF 2014.11.04
 	}
 	for i, d := range data {
 		dir, err := FindCWD()

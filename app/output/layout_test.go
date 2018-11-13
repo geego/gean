@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/media"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestLayout(t *testing.T) {

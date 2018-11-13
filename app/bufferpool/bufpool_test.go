@@ -3,7 +3,7 @@ package bufferpool
 import (
 	"testing"
 
-	"github.com/gostores/assert"
+	"github.com/govenue/assert"
 )
 
 func TestBufferPool(t *testing.T) {

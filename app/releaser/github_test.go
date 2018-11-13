@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestGitHubLookupCommit(t *testing.T) {

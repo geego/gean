@@ -6,8 +6,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 )
 
 var (

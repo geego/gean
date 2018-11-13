@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // MenuEntry represents a menu item defined in either Page front matter

@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/geego/gean/app/media"
-	"github.com/gostores/mapstructure"
+	"github.com/govenue/mapstructure"
 )
 
 // Format represents an output representation, usually to a file on disk.

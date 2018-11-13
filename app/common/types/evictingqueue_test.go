@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestEvictingStringQueue(t *testing.T) {

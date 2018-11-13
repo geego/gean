@@ -11,7 +11,7 @@ import (
 
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/tpl"
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 )
 
 const (

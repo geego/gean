@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/gostores/configurator"
-	"github.com/gostores/require"
+	"github.com/govenue/configurator"
+	"github.com/govenue/require"
 )
 
 // Renders a codeblock using markdown

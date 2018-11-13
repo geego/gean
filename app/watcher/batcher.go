@@ -3,7 +3,7 @@ package watcher
 import (
 	"time"
 
-	"github.com/gostores/fsnotify"
+	"github.com/govenue/fsnotify"
 )
 
 // Batcher batches file watch events in a given interval.

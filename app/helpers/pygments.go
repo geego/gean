@@ -20,7 +20,7 @@ import (
 	"github.com/alecthomas/chroma/styles"
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 
 	bp "github.com/geego/gean/app/bufferpool"
 )

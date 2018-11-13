@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/bufferpool"
-	"github.com/gostores/emoji"
+	"github.com/govenue/emoji"
 )
 
 func TestEmojiCustom(t *testing.T) {

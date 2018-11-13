@@ -10,11 +10,11 @@ import (
 	"unicode/utf8"
 
 	"github.com/geego/gean/app/config"
-	"github.com/gostores/encoding/markdown"
-	"github.com/gostores/goorgeous"
-	"github.com/gostores/mapstructure"
-	"github.com/gostores/mmark"
-	"github.com/gostores/notepad"
+	"github.com/govenue/encoding/markdown"
+	"github.com/govenue/goorgeous"
+	"github.com/govenue/mapstructure"
+	"github.com/govenue/mmark"
+	"github.com/govenue/notepad"
 
 	bp "github.com/geego/gean/app/bufferpool"
 )

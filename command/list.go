@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 
 	"github.com/geego/gean/app/geanlib"
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 )
 
 func init() {

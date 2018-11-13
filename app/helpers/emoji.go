@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/gostores/emoji"
+	"github.com/govenue/emoji"
 )
 
 var (

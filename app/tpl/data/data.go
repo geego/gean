@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/geego/gean/app/deps"
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 )
 
 // New returns a new instance of the data-namespaced template functions.

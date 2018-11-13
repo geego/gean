@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	"github.com/geego/gean/command"
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 )
 
 func main() {

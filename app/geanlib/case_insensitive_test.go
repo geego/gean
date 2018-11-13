@@ -8,8 +8,8 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/require"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/require"
 )
 
 var (

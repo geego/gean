@@ -22,9 +22,9 @@ import (
 	"github.com/geego/gean/app/parser"
 	"github.com/geego/gean/app/related"
 	"github.com/geego/gean/app/source"
-	"github.com/gostores/assist"
-	"github.com/gostores/gitmap"
-	"github.com/gostores/mapstructure"
+	"github.com/govenue/assist"
+	"github.com/govenue/gitmap"
+	"github.com/govenue/mapstructure"
 
 	bp "github.com/geego/gean/app/bufferpool"
 )

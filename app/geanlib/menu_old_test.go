@@ -11,9 +11,9 @@ import (
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/source"
-	"github.com/gostores/assert"
-	"github.com/gostores/encoding/toml"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/encoding/toml"
+	"github.com/govenue/require"
 )
 
 const (

@@ -3,7 +3,7 @@ package utils
 import (
 	"os"
 
-	"github.com/gostores/notepad"
+	"github.com/govenue/notepad"
 )
 
 // CheckErr logs the messages given and then the error.

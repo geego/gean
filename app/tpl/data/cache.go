@@ -8,7 +8,7 @@ import (
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 )
 
 var cacheMu sync.RWMutex

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
 )

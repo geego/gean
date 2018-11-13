@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 const (

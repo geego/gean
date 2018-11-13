@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 
 	"github.com/geego/gean/app/docshelper"
-	"github.com/gostores/goman"
+	"github.com/govenue/goman"
 )
 
 type genDocsHelper struct {

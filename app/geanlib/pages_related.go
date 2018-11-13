@@ -5,7 +5,7 @@ import (
 
 	"github.com/geego/gean/app/common/types"
 	"github.com/geego/gean/app/related"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 var (

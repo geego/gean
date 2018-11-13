@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/geego/gean/app/config"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // These are the settings that should only be looked up in the global Viper

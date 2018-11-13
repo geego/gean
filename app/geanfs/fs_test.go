@@ -3,9 +3,9 @@ package geanfs
 import (
 	"testing"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/configurator"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/assert"
+	"github.com/govenue/configurator"
+	"github.com/govenue/fsintra"
 )
 
 func TestNewDefault(t *testing.T) {

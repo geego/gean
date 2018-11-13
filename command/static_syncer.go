@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gostores/fsnotify"
-	"github.com/gostores/fsync"
+	"github.com/govenue/fsnotify"
+	"github.com/govenue/fsync"
 
 	"github.com/geego/gean/app/helpers"
 

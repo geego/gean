@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"html/template"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // New returns a new instance of the encoding-namespaced template functions.

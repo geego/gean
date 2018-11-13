@@ -3,9 +3,9 @@ package geanlib
 import (
 	"testing"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/fsintra"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/require"
 )
 
 func TestLoadConfig(t *testing.T) {

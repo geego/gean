@@ -3,7 +3,7 @@ package compare
 import (
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 
 	"github.com/geego/gean/app/deps"
 	"github.com/geego/gean/app/tpl/internal"

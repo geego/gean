@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gostores/fsintra"
+	"github.com/govenue/fsintra"
 )
 
 type siteBuildingBenchmarkConfig struct {

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/assert"
-	"github.com/gostores/assist"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/assist"
+	"github.com/govenue/require"
 )
 
 type tstEqerType1 string

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/gitmap"
+	"github.com/govenue/gitmap"
 )
 
 func (h *HugoSites) assembleGitInfo() {

@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/geego/gean/app/helpers"
-	"github.com/gostores/assist"
-	"github.com/gostores/notepad"
+	"github.com/govenue/assist"
+	"github.com/govenue/notepad"
 	"golang.org/x/text/unicode/norm"
 )
 

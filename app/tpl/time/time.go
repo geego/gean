@@ -17,7 +17,7 @@ import (
 	"fmt"
 	_time "time"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // New returns a new instance of the time-namespaced template functions.

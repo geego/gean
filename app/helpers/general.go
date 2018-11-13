@@ -16,9 +16,9 @@ import (
 	"github.com/jdkato/prose/transform"
 
 	bp "github.com/geego/gean/app/bufferpool"
-	"github.com/gostores/assist"
-	"github.com/gostores/notepad"
-	"github.com/gostores/pflag"
+	"github.com/govenue/assist"
+	"github.com/govenue/notepad"
+	"github.com/govenue/pflag"
 )
 
 // FilePathSeparator as defined by os.Separator.

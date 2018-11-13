@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/gostores/assert"
+	"github.com/govenue/assert"
 )
 
 func TestPageCache(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/assert"
+	"github.com/govenue/assert"
 )
 
 func TestDefaultSort(t *testing.T) {

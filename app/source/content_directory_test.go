@@ -17,7 +17,7 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/geanfs"
-	"github.com/gostores/configurator"
+	"github.com/govenue/configurator"
 )
 
 func TestIgnoreDotFilesAndDirectories(t *testing.T) {

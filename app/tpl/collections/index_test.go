@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/deps"
-	"github.com/gostores/assert"
-	"github.com/gostores/require"
+	"github.com/govenue/assert"
+	"github.com/govenue/require"
 )
 
 func TestIndex(t *testing.T) {

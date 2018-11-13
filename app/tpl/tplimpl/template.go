@@ -27,8 +27,8 @@ import (
 	"github.com/geego/gean/app/helpers"
 	"github.com/geego/gean/app/output"
 	"github.com/geego/gean/app/tpl"
-	"github.com/gostores/amber"
-	"github.com/gostores/fsintra"
+	"github.com/govenue/amber"
+	"github.com/govenue/fsintra"
 )
 
 const (

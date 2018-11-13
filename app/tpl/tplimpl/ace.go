@@ -19,7 +19,7 @@ import (
 
 	"strings"
 
-	"github.com/gostores/ace"
+	"github.com/govenue/ace"
 )
 
 func (t *templateHandler) addAceTemplate(name, basePath, innerPath string, baseContent, innerContent []byte) error {

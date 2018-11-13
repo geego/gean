@@ -18,7 +18,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // New returns a new instance of the math-namespaced template functions.

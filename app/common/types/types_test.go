@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestKeyValues(t *testing.T) {

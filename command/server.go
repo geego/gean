@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gostores/fsintra"
-	"github.com/gostores/goman"
-	"github.com/gostores/notepad"
+	"github.com/govenue/fsintra"
+	"github.com/govenue/goman"
+	"github.com/govenue/notepad"
 
 	"github.com/geego/gean/app/config"
 	"github.com/geego/gean/app/helpers"

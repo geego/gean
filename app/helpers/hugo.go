@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // HugoVersion represents the Hugo build version.

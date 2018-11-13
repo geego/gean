@@ -3,7 +3,7 @@ package helpers
 import (
 	"testing"
 
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 func TestBaseURL(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gostores/purell"
+	"github.com/govenue/purell"
 )
 
 type pathBridge struct {

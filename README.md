@@ -3,26 +3,26 @@ a simple podcast generator.
 
 ## Install packages
 ```
-$ go get github.com/gostores/notepad
-$ go get github.com/gostores/goman
-$ go get github.com/gostores/assist
-$ go get github.com/gostores/configurator
-$ go get github.com/gostores/fsintra
-$ go get github.com/gostores/fsnotify
-$ go get github.com/gostores/fsync
-$ go get github.com/gostores/pflag
-$ go get github.com/gostores/inflect
-$ go get github.com/gostores/osext
-$ go get github.com/gostores/purell
-$ go get github.com/gostores/goorgeous
-$ go get github.com/gostores/gitmap
-$ go get github.com/gostores/emoji
-$ go get github.com/gostores/amber
-$ go get github.com/gostores/require
-$ go get github.com/gostores/ace
-$ go get github.com/gostores/cssmin
-$ go get github.com/gostores/mmark
-$ go get github.com/gostores/encoding/markdown
+$ go get github.com/govenue/notepad
+$ go get github.com/govenue/goman
+$ go get github.com/govenue/assist
+$ go get github.com/govenue/configurator
+$ go get github.com/govenue/fsintra
+$ go get github.com/govenue/fsnotify
+$ go get github.com/govenue/fsync
+$ go get github.com/govenue/pflag
+$ go get github.com/govenue/inflect
+$ go get github.com/govenue/osext
+$ go get github.com/govenue/purell
+$ go get github.com/govenue/goorgeous
+$ go get github.com/govenue/gitmap
+$ go get github.com/govenue/emoji
+$ go get github.com/govenue/amber
+$ go get github.com/govenue/require
+$ go get github.com/govenue/ace
+$ go get github.com/govenue/cssmin
+$ go get github.com/govenue/mmark
+$ go get github.com/govenue/encoding/markdown
 $ go get github.com/alecthomas/chroma
 $ go get github.com/gorilla/websocket
 $ go get github.com/jdkato/prose/transform

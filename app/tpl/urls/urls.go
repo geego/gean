@@ -20,7 +20,7 @@ import (
 	"net/url"
 
 	"github.com/geego/gean/app/deps"
-	"github.com/gostores/assist"
+	"github.com/govenue/assist"
 )
 
 // New returns a new instance of the urls-namespaced template functions.

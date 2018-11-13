@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/geego/gean/app/deps"
-	"github.com/gostores/require"
+	"github.com/govenue/require"
 )
 
 const pageWithAlias = `---
